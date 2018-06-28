@@ -27,6 +27,4 @@ Rails.application.configure do
   config.lead_api_ppartner = ENV['LEAD_API_PPARTNER']
   config.lead_api_access_token = ENV['LEAD_API_ACCESS_TOKEN']
   config.lead_api_base_uri = ENV['LEAD_API_URI']
-
-  config.action_controller.asset_host = "staging.moneysupermarket.makeitcheaper.com"
 end
