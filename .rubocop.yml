@@ -1,12 +1,11 @@
-Style/BlockLength:
+Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
 
-Style/LineLength:
+Metrics/LineLength:
   Max: 130
   Exclude:
     - 'spec/**/*.rb'
-    - 'app/services/lead_api_service.rb'
 
 Style/Documentation:
   Exclude:
