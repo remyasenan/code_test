@@ -3,13 +3,13 @@
 source 'https://rubygems.org'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap', '>= 4.1.2'
+gem 'bootstrap', '>= 4.3.1'
 gem 'coffee-rails'
 gem 'execjs'
 gem 'httparty'
 gem 'jquery-rails'
 gem 'mini_racer', platforms: :ruby
-gem 'popper_js', '~> 1.12.3'
+gem 'popper_js', '~> 1.14.3'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1'
 gem 'sass-rails', '~> 5.0'
