@@ -7,7 +7,7 @@ class ClientsController < ApplicationController
 		@client = Client.new(client_params)
 
 		if @client.valid?
-			response = HTTParty.post(ENV['LEAD_API_URI'], {  
+			response = HTTParty.post(ENV['LEAD_API_URI']+'/api/v1/create', {  
 		  body: request_body(@client), 
           headers: {
             'Content-Type' => 'application/x-www-form-urlencoded',
