@@ -21,20 +21,10 @@ section {
   overflow: auto;
 }
 
-textarea {
-  resize: vertical;
-}
-
-.center {
-  text-align: center;
-  h1 {
-    margin-bottom: 10px;
-  }
-}
 
 /* navbar */
 .navbar-default {
-    background-color: #7c7c7c;
+    background-color: #40e0d0;
     border-color: #E7E7E7;
 }
 
@@ -52,12 +42,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
+  font-size: 2em;
+  letter-spacing: -1.5px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #D3D3D3;
 }
 
 p {
@@ -89,24 +78,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: #D3D3D3;
-  a {
-    color: #808080;
-    &:hover {
-      color: #A9A9A9;
-    }
-  }
-  small {
-    float: left;
-  }
-  ul {
-    float: right; color: #222;
-    list-style: none;
-    li {
-      float: left;
-      margin-left: 15px;
-    }
-  }
+  color: #8b8989;
 }
 
 /* miscellaneous */
@@ -160,7 +132,7 @@ aside {
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
-  width: 100%;
+  width: 40%;
   margin-bottom: 15px;
   @include box_sizing;
 }

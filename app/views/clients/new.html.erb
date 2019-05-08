@@ -1,5 +1,20 @@
-<h1>Callback</h1>
-<p> <%= form_for(@client) do |f| %>
+<div class="col-sm-6">
+<h2>Business Energy</h2>
+<ul class="list-group list-group-flush">
+      <li class="list-group-item">Save up to £1,027*</li>
+      <li class="list-group-item">We work with all the suppliers you know and trust</li>
+      <li class="list-group-item">Get a bespoke FREE quote in minutes and start saving</li>
+</ul>
+<h2>Need Help?</h2>
+<ul class="list-group list-group-flush">
+      <li class="list-group-item">We are here to help you. Why don't you try the callback request?</span></li>
+      <li class="list-group-item">Or call us on <span style="color: red">08009700077</span></li>
+</ul>
+</div>
+
+<div class="col-xs-5">
+<h2>Callback</h2>
+   <%= form_for(@client) do |f| %>
       <%= render 'layouts/client_error_messages.html' %>
 
       <%= f.label :full_name %>
@@ -16,4 +31,4 @@
 
       <%= f.submit "Callback", class: "btn btn-primary" %>
     <% end %>
-</p>
+</div>
