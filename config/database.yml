@@ -1,14 +1,20 @@
-test:
-  adapter:  sqlite3
-  database: db/test_database.sqlite3
+base: &base
+  adapter: mysql2
+  socket: /var/run/mysqld/mysqld.sock
+  username: root
+  password: root
 
 development:
-  adapter:  sqlite3
-  database: db/development_database.sqlite3
+  database: client_db
+  <<: *base
+
+test:
+  database: client_db
+  <<: *base
 
 staging:
-  adapter:  sqlite3
-  database: db/staging_database.sqlite3
+  database: client_db
+  <<: *base
 
 production:
   adapter:  mysql2

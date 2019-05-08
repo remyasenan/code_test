@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap', '>= 4.3.1'
+gem 'bootstrap-sass', '3.3.7'
 gem 'coffee-rails'
 gem 'execjs'
 gem 'httparty'
@@ -32,7 +32,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails', '~> 0.3'
   gem 'rubocop'
-  gem 'sqlite3', '~> 1.3'
+  gem 'mysql2', '~> 0.5.2'
   gem 'sshkit-sudo'
 end
 
